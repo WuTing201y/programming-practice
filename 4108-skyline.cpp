@@ -52,8 +52,7 @@ void update(int L, int R, int h, int left, int right, int node) {
     pushup(node);
 }
 int main() {
-	freopen("4108.in", "r", stdin);
-    freopen("4108.out","w",stdout);		
+
     while(~scanf("%d",&T) && T) {
         while(T--) {
             scanf("%d",&n);
